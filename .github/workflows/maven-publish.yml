@@ -46,7 +46,6 @@ jobs:
       - name: Verify Directory and Check Files
         run: |
           pwd
-          ls -l
 
       # Step 5: Build and test the project
       - name: Build and Test
