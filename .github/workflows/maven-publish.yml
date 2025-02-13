@@ -51,10 +51,3 @@ jobs:
       - name: Build and Test
         run: mvn clean install
         working-directory: .   # This ensures Maven runs in the root directory where pom.xml is located
-
-      # Step 6: Publish the package to GitHub Packages
-      - name: Publish Package to GitHub Packages
-        run: mvn deploy -X
-        working-directory: .   # This ensures Maven deploys from the root directory where pom.xml is located
-        env:
-          GITHUB_TOKEN: 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   # GitHub token for authentication
