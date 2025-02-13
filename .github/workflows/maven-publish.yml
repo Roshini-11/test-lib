@@ -36,7 +36,7 @@ jobs:
               <server>
                 <id>github</id>
                 <username>Roshini-11</username>
-                <password>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</password>
+                <password>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</password>
               </server>
             </servers>
           </settings>
@@ -58,4 +58,4 @@ jobs:
         run: mvn deploy
         working-directory: .   # This ensures Maven deploys from the root directory where pom.xml is located
         env:
-          GITHUB_TOKEN: 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   # GitHub token for authentication
+          GITHUB_TOKEN: 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   # GitHub token for authentication
